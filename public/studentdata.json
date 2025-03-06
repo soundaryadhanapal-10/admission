@@ -1,0 +1,134 @@
+[
+  {
+    "department": "Computer Science",
+    "students": [
+      {
+        "name": "John Doe",
+        "class": "B.Tech",
+        "email": "john@example.com",
+        "phone_number": "1234567890",
+        "date_of_birth": "2000-01-01",
+        "gender": "Male",
+        "address": {
+          "street": "123 Street",
+          "city": "City",
+          "state": "State",
+          "pin_code": "12345"
+        },
+        "internships": [
+          {
+            "title": "Software Developer Intern",
+            "company": "ABC Corp",
+            "role": "Developer",
+            "duration": "3 months",
+            "project_description": "Developing a web app"
+          }
+        ],
+        "academic_goals": ["Learn AI", "Get a good GPA"],
+        "skills": {
+          "technical_skills": ["JavaScript", "React"],
+          "languages_spoken": ["English", "Spanish"]
+        }
+      }
+    ]
+  },
+  {
+    "department": "Electrical Engineering",
+    "students": [
+      {
+        "name": "Alice",
+        "class": "ECE",
+        "email": "alice@example.com",
+        "phone_number": "9876543210",
+        "date_of_birth": "2000-05-15",
+        "gender": "Female",
+        "address": {
+          "street": "456 Elm St",
+          "city": "Cityville",
+          "state": "Stateville",
+          "pin_code": "67890"
+        },
+        "internships": [
+          {
+            "title": "Software Engineer Intern",
+            "company": "XYZ Corp",
+            "role": "Intern",
+            "duration": "3 months",
+            "project_description": "Worked on AI algorithms"
+          }
+        ],
+        "academic_goals": ["Get a high GPA", "Intern in a top tech company"],
+        "skills": {
+          "technical_skills": ["Java", "C++", "Machine Learning"],
+          "languages_spoken": ["English", "Spanish"]
+        }
+      }
+    ]
+  },
+  {
+    "department": "MCA",
+    "students": [
+      {
+        "name": "Robin",
+        "class": "MCA",
+        "email": "bob@example.com",
+        "phone_number": "1234567890",
+        "date_of_birth": "1999-03-20",
+        "gender": "Male",
+        "address": {
+          "street": "789 Maple St",
+          "city": "Techville",
+          "state": "Techstate",
+          "pin_code": "12345"
+        },
+        "internships": [
+          {
+            "title": "Mechanical Engineer Intern",
+            "company": "ABC Engineering",
+            "role": "Intern",
+            "duration": "6 months",
+            "project_description": "Worked on aerodynamics simulations"
+          }
+        ],
+        "academic_goals": ["Complete PhD", "Work in aerospace industry"],
+        "skills": {
+          "technical_skills": ["SolidWorks", "AutoCAD", "Fluid Mechanics"],
+          "languages_spoken": ["English"]
+        }
+      }
+    ]
+  },
+  {
+    "department": "BCA",
+    "students": [
+      {
+        "name": "Niki",
+        "class": "BCA",
+        "email": "charlie@example.com",
+        "phone_number": "5432167890",
+        "date_of_birth": "2001-07-30",
+        "gender": "Male",
+        "address": {
+          "street": "123 Oak St",
+          "city": "Techcity",
+          "state": "Technostate",
+          "pin_code": "98765"
+        },
+        "internships": [
+          {
+            "title": "Web Developer Intern",
+            "company": "Tech Solutions",
+            "role": "Intern",
+            "duration": "4 months",
+            "project_description": "Developed a responsive website"
+          }
+        ],
+        "academic_goals": ["Learn full-stack development", "Work at a tech startup"],
+        "skills": {
+          "technical_skills": ["HTML", "CSS", "JavaScript"],
+          "languages_spoken": ["English"]
+        }
+      }
+    ]
+  }
+]
