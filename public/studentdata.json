@@ -3,17 +3,17 @@
     "department": "Computer Science",
     "students": [
       {
-        "name": "John Doe",
+        "name": "Shayan",
         "class": "B.Tech",
-        "email": "john@example.com",
+        "email": "john@email.com",
         "phone_number": "1234567890",
         "date_of_birth": "2000-01-01",
         "gender": "Male",
         "address": {
           "street": "123 Street",
-          "city": "City",
-          "state": "State",
-          "pin_code": "12345"
+          "city": "Infocity",
+          "state": "Gujarat",
+          "pin_code": "17845"
         },
         "internships": [
           {
@@ -29,6 +29,34 @@
           "technical_skills": ["JavaScript", "React"],
           "languages_spoken": ["English", "Spanish"]
         }
+      },
+      {
+        "name": "rishi ",
+        "class": "B.E",
+        "email": "robin@email.com",
+        "phone_number": "3453123908",
+        "date_of_birth": "2003-10-10",
+        "gender": "Male",
+        "address": {
+          "street": "KTS Street",
+          "city": "Chennai",
+          "state": "Tamil Nadu",
+          "pin_code":"64534"
+        },
+        "internships": [
+          {
+            "title": "Data Science",
+            "company": "exposys labs",
+            "role": "Developer",
+            "duration": "3 months",
+            "project_description": "Developing a web app"
+          }
+        ],
+        "academic_goals": ["Get a good GPA"],
+        "skills": {
+          "technical_skills": ["Python", "Machine learning"],
+          "languages_spoken": ["English", "Spanish"]
+        }
       }
     ]
   },
@@ -36,31 +64,31 @@
     "department": "Electrical Engineering",
     "students": [
       {
-        "name": "Alice",
+        "name": "Nivedha ",
         "class": "ECE",
-        "email": "alice@example.com",
+        "email": "nivi@email.com",
         "phone_number": "9876543210",
-        "date_of_birth": "2000-05-15",
+        "date_of_birth": "2004-06-2",
         "gender": "Female",
         "address": {
-          "street": "456 Elm St",
-          "city": "Cityville",
-          "state": "Stateville",
+          "street": "2 MK Street",
+          "city": "VMK",
+          "state": "Delhi",
           "pin_code": "67890"
         },
-        "internships": [
+        "internships": [ 
           {
             "title": "Software Engineer Intern",
-            "company": "XYZ Corp",
+            "company": "VGP Company",
             "role": "Intern",
-            "duration": "3 months",
-            "project_description": "Worked on AI algorithms"
+            "duration": "3 months"
+            
           }
         ],
         "academic_goals": ["Get a high GPA", "Intern in a top tech company"],
         "skills": {
-          "technical_skills": ["Java", "C++", "Machine Learning"],
-          "languages_spoken": ["English", "Spanish"]
+          "technical_skills": ["flask", "C++", "React"],
+          "languages_spoken": ["English", "French"]
         }
       }
     ]
@@ -71,9 +99,9 @@
       {
         "name": "Robin",
         "class": "MCA",
-        "email": "bob@example.com",
-        "phone_number": "1234567890",
-        "date_of_birth": "1999-03-20",
+        "email": "Robin@email.com",
+        "phone_number": "1234534590",
+        "date_of_birth": "1998-04-10",
         "gender": "Male",
         "address": {
           "street": "789 Maple St",
@@ -84,7 +112,7 @@
         "internships": [
           {
             "title": "Mechanical Engineer Intern",
-            "company": "ABC Engineering",
+            "company": "CBA Engineering",
             "role": "Intern",
             "duration": "6 months",
             "project_description": "Worked on aerodynamics simulations"
@@ -104,10 +132,10 @@
       {
         "name": "Niki",
         "class": "BCA",
-        "email": "charlie@example.com",
-        "phone_number": "5432167890",
+        "email": "nivi@email.com",
+        "phone_number": "5432652890",
         "date_of_birth": "2001-07-30",
-        "gender": "Male",
+        "gender": "Female",
         "address": {
           "street": "123 Oak St",
           "city": "Techcity",

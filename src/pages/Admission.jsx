@@ -6,7 +6,7 @@ export const Admission = () => {
     firstname:"",
     lastname:"",
     email:" ",
-    Contact:" ",
+    Contact:"",
     gender:" ",
     subject:" ",
     Marksheet:" ",
@@ -15,70 +15,57 @@ export const Admission = () => {
   const handlechanges= (e) =>{
     setValues({...values, [e.target.name]:e.target.value})
   }
+  const handlechange=(e) =>{
+    setValues({...values, [e.target.name]:[e.target.value]})
+  }
   const handlesubmit= (e)=>{
     e.preventDefault()
     alert('Applied successfully')
     console.log(values)
   }
-
-
-//  const pdf_file_url="http://http://localhost:5173/admission/SOUNDARYA Resume 3 (1).pdf"
-// function pdf(){
-// const downloadFileAtURL=(url)=> {
-//    const filename= url.split('/').pop()
-//    const aTag = document.createElement('a')
-//    aTag.href=url
-//    aTag.setAttribute('download',filename);
-//    document.body.appendChild(aTag);
-//    aTag.click();
-//    aTag.remove();
-//  }
-// }
-  
-  return (
+return (
     <div className='Details'>
     <div className='admission'>
-      {/* for submit create onsubmit in the form tag */}
       <form onSubmit={handlesubmit}>      
-      <h1>Admission Form</h1> <br/>
+      <h1>Admission Form</h1> <br/> 
         <div className='form-top'>
-        <label htmlFor='firstname'>First Name</label>
+        <label for='firstname'>First Name</label>
           <input type='text' placeholder='Enter Firstname' name='firstname' onChange={ (e)=> handlechanges (e)}required/>
-        <label htmlFor='lastname'>last Name</label>
+        <label for='lastname'>last Name</label>
           <input type='text' placeholder='Enter Lastname' name='lastname'onChange={ (e)=>handlechanges (e)} required/>
-        <label htmlFor='email'>Email</label>
-        <input type='email' placeholder='Enter Email' onChange={ (e)=>handlechanges (e)} required/>
+        <label for='email'>Email</label>
+        <input type='email' placeholder='Enter Email' name='email' onChange={ (e)=>handlechanges (e)} required/>
 
-        <label htmlFor='Contact'>Contact</label>
-        <input type='number' placeholder='Enter Contact' onChange={ (e)=>handlechanges (e)} required/>
+        <label for='Contact'>Contact</label>
+         <input type='number' placeholder='Enter Contact' name='contact' onChange={ (e)=>handlechanges (e)} required/>
 
-        <label htmlFor='gender'>Gender</label>
-        <select name='gender' id='gender'onChange={ (e)=>handlechanges (e)} required >
+        <label for='gender'>Gender</label>
+        <select id='gender' name='gender' placeholder="gender" onChange={ (e)=>handlechanges (e)}  required >
           <option value="male">Male</option>
           <option value="female">Female</option>
           <option value="other">Other</option>
         </select>
         
-        <label htmlFor='subject'>Subject</label>
-        <select name='subject' id='subject' onChange={ (e)=>handlechanges (e)} required>
-          <option value="math">Math</option>
-          <option value="physics">physics</option>
-          <option value="English">English</option><br/>
+        <label for='subject'>Department</label>
+        <select  id='subject'name='subject'placeholder="department" onChange={ (e)=>handlechanges (e)}  required>
+          <option value="CSE">CSE</option>
+          <option value="MCA">MCA</option>
+          <option value="BCA">BCA</option>
         </select>
-        <label htmlFor='Marksheet'>Marksheet</label>
-        <input type='file'placeholder='select Marksheet'name="Marksheet" onChange={ (e)=>handlechanges (e)} required/>
+        <label for='Marksheet'>Marksheet</label>
+        <input type='file' name="Marksheet" onChange={ (e)=>handlechange (e)} required/>
       </div>
 
       <div className='form-bottom'>
-        <label htmlFor='about'>About</label>
-        <textarea name='about' id='about' cols="15" rows="15"
+        <label for='about'>About</label>
+        <textarea id='about' name='about' cols="15" rows="15"
         onChange={ (e)=>handlechanges (e)} placeholder='Enter Description'></textarea>
         
         <button type="submit">Apply Now</button>
       </div>
       </form>
       <div className='download'>
-        <a className=" "href="/SOUNDARYA RESUME.pdf (1).pdf" download>Download Marksheet</a>
+        <a className=" " download>Download Marksheet</a>
         </div>
 
       <div className='paragraph'>

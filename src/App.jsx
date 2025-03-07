@@ -6,14 +6,14 @@ import {Routes,Route} from "react-router-dom";
 import Dashboard from "./pages/Dashboard"
 import Profile from "./pages/Profile";
 import { Admission } from './pages/Admission';
-// import { Header} from './pages/Header';
+import { Header} from './pages/Header';
 function App() {
  
 
   return (
     <>
       <div>
-      {/* <Header /> */}
+      <Header />
       <Sidebar/>
       <Routes>
         <Route path="/" element={<About/>} />

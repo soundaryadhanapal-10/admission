@@ -15,7 +15,7 @@
     
     background-color: #f0f0f0;
     position:fixed;
-    width: 95%;
+    width: 96%;
     
   }
 .logo {
@@ -35,10 +35,6 @@ position: fixed;
     padding: 0;
     margin: 0;
 }
-/* .navbar li {
-      padding: 10px 20px;
-}
-   */
 .navbar li {
     color: white;
     font-size: 25px;
@@ -205,10 +201,7 @@ form{
     line-height: 20px;
     font-weight: 500;
 }
-/* input[type="radio"]{
-  display: inline;
-  width: 5%;
-} */
+
 .form-bottom{
     display: flex;
     flex-direction: column;
@@ -311,32 +304,47 @@ form{
   max-height: 100px;  
   object-fit: cover;  
 }
-/* .section{
-  background-color:rgb(159, 139, 139); 
-  width: 200px; 
-   
-  margin-top: 5rem;
-  margin-bottom:5rem;
-  padding-top: 50px;
-  /* padding-bottom: 50px; */
-  /* position: fixed; 
+
+
+/* profile css */
+
+.profile-heading{
+  margin-top:5%;
 }
-.section li {
-  color: white;
-  
-  font-size: 25px;
-  border: #333;
-  display: block;
-  
+
+.department-btn{
+  margin-right:4rem;
+  margin-left:2rem;
+  margin-top: 5%;
+  padding:32px;
+  border:#6c6b6b;
+  border-radius: 15px;
+  width: 15%;
   cursor: pointer;
-  transition:ease-in-out;
-  margin-bottom: 4rem;
-}  */
+  
+}
+
+.student-names{
+text-align:left;
+margin-top:5%
+}
 
 
-
-
-
-
-
-
+.student-names ul{
+  margin-left: 18%;
+  gap: 5rem;
+  cursor: pointer;
+}
+.student-names ul{
+  margin-left: 18%;
+  gap: 5rem;
+}
+.back{
+  margin-left: 14%;
+}
+ .back-btn{
+  padding: 32px;
+  background-color:#f0f0f0;
+  border:#252323 ;
+  cursor: pointer;;
+ }
