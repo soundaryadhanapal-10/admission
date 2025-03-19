@@ -1,93 +1,25 @@
 [
-    {
-      "college": "AMS college of Engineering",
-      "departments": [
-        {
-          "name": "Computer Science",
-          "students": [
-            {
-              "name": "John",
-              "class": "Final Year",
-              "cgpa": 8.9,
-              "10th_percentage": 92,
-              "12th_percentage": 88,
-              "interested_work_field": "Software Development"
-            },
-            {
-              "name": "Mark",
-              "class": "Third Year",
-              "cgpa": 8.1,
-              "10th_percentage": 85,
-              "12th_percentage": 80,
-              "interested_work_field": "Data Science"
-            }
-          ]
-        },
-        {
-          "name": "Mechanical Engineering",
-          "students": [
-            {
-              "name": "Shayan",
-              "class": "Second Year",
-              "cgpa": 7.5,
-              "10th_percentage": 90,
-              "12th_percentage": 85,
-              "interested_work_field": "Mechanical Design"
-            },
-            {
-              "name": "Ashwin",
-              "class": "First Year",
-              "cgpa": 6.8,
-              "10th_percentage": 80,
-              "12th_percentage": 75,
-              "interested_work_field": "Robotics"
-            }
-          ]
-        },
-        {
-          "name": "Electrical Engineering",
-          "students": [
-            {
-              "name": "Nivedha",
-              "class": "Final Year",
-              "cgpa": 8.5,
-              "10th_percentage": 91,
-              "12th_percentage": 84,
-              "interested_work_field": "Power Systems"
-            },
-            {
-              "name": "Sharif",
-              "class": "Third Year",
-              "cgpa": 7.9,
-              "10th_percentage": 86,
-              "12th_percentage": 82,
-              "interested_work_field": "Automation"
-            }
-          ]
-        },
-        {
-          "name": "Civil Engineering",
-          "students": [
-            {
-              "name": "Yash",
-              "class": "Second Year",
-              "cgpa": 7.2,
-              "10th_percentage": 88,
-              "12th_percentage": 83,
-              "interested_work_field": "Structural Engineering"
-            },
-            {
-              "name": "Robin",
-              "class": "First Year",
-              "cgpa": 6.5,
-              "10th_percentage": 78,
-              "12th_percentage": 72,
-              "interested_work_field": "Construction Management"
-            }
-          ]
-        }
-       
-      ]
-    }
-  ]
-  
+  {
+    "Author": "chetan Bhagat",
+    "Books": [
+      {
+        "Name": "Art Of Happiness",
+        "Title":"Purpose of life",
+        "part1": [
+          {
+            "chapter1": "Purpose of Life",
+            "chapter2": "The sources of happiness",
+            "chapter3": "Training the mind for happiness",
+            "chapter4": "state of happiness"
+          }],
+         "part2" :[ 
+          {
+            "chapter5": "Self-created suffering",
+            "chapter6": "Facing the pain",
+            "chapter7": "Finding the meaning in the pain"
+          }
+         ]
+      }
+    ]
+  }
+]
